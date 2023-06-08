@@ -138,3 +138,5 @@ st.session_state['slideshow_index'] = slideshow_index
 
 # Display the current image
 display_image(slideshow_index)
+
+st.write("[Go Back >](https://signlanguage.tech)")
