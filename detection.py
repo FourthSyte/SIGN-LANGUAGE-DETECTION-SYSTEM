@@ -106,7 +106,7 @@ image_paths = ['images/1.png', 'images/2.png', 'images/3.png', 'images/4.png', '
                'images/31.png', 'images/32.png', 'images/33.png', 'images/34.png', 'images/35.png', 'images/36.png']
 
 st.title("Detectable gestures by the detection system")
-st.caption("Presented below are a series of example gestures that can serve as a guide for effectively "
+st.write("Presented below are a series of example gestures that can serve as a guide for effectively "
            "utilizing the system. "
            "This detection system is capable of recognizing alphabets and a selection of words.")
 
@@ -122,7 +122,7 @@ def display_image(image_index):
     st.image(image, use_column_width=True)
 
 
-# Create a layout for slideshow with navigation buttons
+# Create a layout for a slideshow with navigation buttons
 col1, col2, col3 = st.columns([1, 10, 1])
 
 # Add navigation buttons
