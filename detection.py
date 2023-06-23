@@ -19,7 +19,7 @@ st.set_page_config(
 )
 
 st.title("Sign Language Detection")
-st.caption("This web demonstrates Sign Language Detection")
+st.write("This web demonstrates Sign Language Detection")
 
 # Load the models directly, without caching
 detector = HandDetector(maxHands=2)
